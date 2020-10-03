@@ -27,17 +27,6 @@ F 5 "IPC-7351B" H 3025 3700 50  0001 L BNN "Field5"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Oscillator:XO53 XTAL1
-U 1 1 5F5BFCC2
-P 3200 5500
-F 0 "XTAL1" H 2875 5225 50  0000 L CNN
-F 1 "40MHz" H 2850 5125 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 3900 5150 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 3100 5500 50  0001 C CNN
-	1    3200 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5F5C0754
 P 7350 2325
@@ -444,8 +433,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 3775 6675 3775
 Wire Wire Line
-	1600 4550 6675 4550
-Wire Wire Line
 	6675 4550 6675 3775
 Wire Wire Line
 	1600 3000 1600 4550
@@ -668,4 +655,17 @@ Wire Wire Line
 	7725 2775 6600 2775
 Wire Wire Line
 	7725 1800 9300 1800
+$Comp
+L Oscillator:XO53 XTAL1
+U 1 1 5F5BFCC2
+P 3200 5500
+F 0 "XTAL1" H 2875 5225 50  0000 L CNN
+F 1 "40MHz" H 2850 5125 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 3900 5150 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 3100 5500 50  0001 C CNN
+	1    3200 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4550 6675 4550
 $EndSCHEMATC
