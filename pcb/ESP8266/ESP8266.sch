@@ -8,7 +8,7 @@ Title "ESP-01S"
 Date "2020-09-11"
 Rev "v1.0"
 Comp "CESE11 - Federico Pacher"
-Comment1 ""
+Comment1 "Revisor Hanes Sciarrone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -21,7 +21,7 @@ F 0 "U2" H 3475 3225 50  0000 C CNN
 F 1 "W25Q16BVSSIG" H 2800 3225 50  0000 C CNN
 F 2 "W25Q16BVSSIG:SOIC127P790X216-8N" H 3025 3700 50  0001 L BNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Winbond%20PDFs/W25Q64BV.pdf" H 3025 3700 50  0001 L BNN
-F 4 "F" H 3025 3700 50  0001 L BNN "Field4"
+F 4 "https://www.digikey.com/es/products/detail/winbond-electronics/W25Q16BVSSIG/2208449" H 3025 3700 50  0001 L BNN "Field4"
 F 5 "IPC-7351B" H 3025 3700 50  0001 L BNN "Field5"
 	1    3025 3700
 	-1   0    0    -1  
@@ -256,28 +256,6 @@ NoConn ~ 6600 3375
 NoConn ~ 6600 3475
 NoConn ~ 6600 3575
 $Comp
-L Device:L L2
-U 1 1 5F63F49C
-P 8600 3225
-F 0 "L2" H 8652 3271 50  0000 L CNN
-F 1 "NC" H 8652 3180 50  0000 L CNN
-F 2 "Inductor_SMD:L_0402_1005Metric" H 8600 3225 50  0001 C CNN
-F 3 "~" H 8600 3225 50  0001 C CNN
-	1    8600 3225
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:L L1
-U 1 1 5F6400FC
-P 9200 3225
-F 0 "L1" H 9250 3175 50  0000 L CNN
-F 1 "NC" H 9250 3250 50  0000 L CNN
-F 2 "Inductor_SMD:L_0402_1005Metric" H 9200 3225 50  0001 C CNN
-F 3 "~" H 9200 3225 50  0001 C CNN
-	1    9200 3225
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0112
 U 1 1 5F6405DA
 P 8600 3450
@@ -299,9 +277,6 @@ F 3 "" H 9200 3450 50  0001 C CNN
 	1    9200 3450
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 3075 8600 3075
-Connection ~ 8600 3075
 Wire Wire Line
 	9050 3075 9200 3075
 Wire Wire Line
@@ -464,7 +439,7 @@ U 1 1 5F5D0D88
 P 9600 1900
 F 0 "J1" H 9650 2217 50  0000 C CNN
 F 1 "Conn_02x04" H 9650 2126 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 9600 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9600 1900 50  0001 C CNN
 F 3 "~" H 9600 1900 50  0001 C CNN
 	1    9600 1900
 	-1   0    0    1   
@@ -505,8 +480,6 @@ Connection ~ 2100 2275
 Text Notes 2600 2200 0    50   ~ 0
 Capacitores de desacople
 Wire Wire Line
-	6600 3075 8600 3075
-Wire Wire Line
 	3325 2625 3325 2700
 Wire Wire Line
 	3325 2325 3325 2275
@@ -534,10 +507,6 @@ Wire Wire Line
 	2775 5500 2900 5500
 Wire Wire Line
 	7350 2475 7350 2550
-Wire Wire Line
-	9200 3375 9200 3450
-Wire Wire Line
-	8600 3375 8600 3450
 Wire Wire Line
 	9950 2000 9950 2225
 Wire Wire Line
@@ -633,7 +602,7 @@ F 0 "U1" H 6350 2000 50  0000 C CNN
 F 1 "ESP8266EX" H 5225 2000 50  0000 C CNN
 F 2 "ESP8266EX:QFN50P500X500X80-33N" H 5700 3075 50  0001 L BNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" H 5700 3075 50  0001 L BNN
-F 4 "IPC-7351B" H 5700 3075 50  0001 L BNN "Field4"
+F 4 "https://www.digikey.com/es/products/detail/espressif-systems/ESP8266EX/8028408?utm_adgroup=RF%20%26%20RFID&utm_source=google&utm_medium=cpc&utm_campaign=ES_Argentina_Dynamic%20Search&utm_term=&utm_content=RF%20%26%20RFID&gclid=CjwKCAjwlID8BRAFEiwAnUoK1Yae-m8mh8PoYFFlH1WCcLQath7XOvYnJY-aIz6l4-U5oYpn0OpbJBoC5OwQAvD_BwE" H 5700 3075 50  0001 L BNN "Field4"
 F 5 "36610" H 5700 3075 50  0001 L BNN "Field5"
 F 6 "Espressif Systems" H 5700 3075 50  0001 L BNN "Field6"
 	1    5700 3075
@@ -668,4 +637,35 @@ F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 3100 5500 50  
 $EndComp
 Wire Wire Line
 	1600 4550 6675 4550
+$Comp
+L Device:L L1
+U 1 1 5F6400FC
+P 9200 3225
+F 0 "L1" H 9250 3175 50  0000 L CNN
+F 1 "NC" H 9250 3250 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 9200 3225 50  0001 C CNN
+F 3 "~" H 9200 3225 50  0001 C CNN
+	1    9200 3225
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9200 3375 9200 3450
+$Comp
+L Device:L L2
+U 1 1 5F63F49C
+P 8600 3225
+F 0 "L2" H 8652 3271 50  0000 L CNN
+F 1 "NC" H 8652 3180 50  0000 L CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 8600 3225 50  0001 C CNN
+F 3 "~" H 8600 3225 50  0001 C CNN
+	1    8600 3225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3375 8600 3450
+Wire Wire Line
+	6600 3075 8600 3075
+Wire Wire Line
+	8750 3075 8600 3075
+Connection ~ 8600 3075
 $EndSCHEMATC
