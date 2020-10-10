@@ -686,12 +686,65 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F8A9382
-P 4250 1625
-F 0 "H1" H 4350 1671 50  0000 L CNN
-F 1 "MountingHole" H 4350 1580 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 4250 1625 50  0001 C CNN
-F 3 "~" H 4250 1625 50  0001 C CNN
-	1    4250 1625
+P 1050 1625
+F 0 "H1" H 1150 1671 50  0000 L CNN
+F 1 "MountingHole" H 1150 1580 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 1050 1625 50  0001 C CNN
+F 3 "~" H 1050 1625 50  0001 C CNN
+	1    1050 1625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5F8B2921
+P 1025 2250
+F 0 "FID1" H 1110 2296 50  0000 L CNN
+F 1 "Fiducial" H 1110 2205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2250 50  0001 C CNN
+F 3 "~" H 1025 2250 50  0001 C CNN
+	1    1025 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5F8B46CF
+P 1025 2475
+F 0 "FID2" H 1110 2521 50  0000 L CNN
+F 1 "Fiducial" H 1110 2430 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2475 50  0001 C CNN
+F 3 "~" H 1025 2475 50  0001 C CNN
+	1    1025 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5F8B4929
+P 1025 2725
+F 0 "FID3" H 1110 2771 50  0000 L CNN
+F 1 "Fiducial" H 1110 2680 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2725 50  0001 C CNN
+F 3 "~" H 1025 2725 50  0001 C CNN
+	1    1025 2725
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	850  2075 1525 2075
+Wire Notes Line
+	1525 2075 1525 2900
+Wire Notes Line
+	1525 2900 850  2900
+Wire Notes Line
+	850  2900 850  2075
+Wire Notes Line
+	850  1450 850  1800
+Wire Notes Line
+	850  1800 1750 1800
+Wire Notes Line
+	1750 1800 1750 1450
+Wire Notes Line
+	1750 1450 850  1450
+Text Notes 850  1425 0    50   ~ 0
+Agujero sugesión
+Text Notes 850  2050 0    50   ~ 0
+Fiduciales
 $EndSCHEMATC
