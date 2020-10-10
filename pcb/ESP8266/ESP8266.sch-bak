@@ -694,4 +694,15 @@ F 3 "~" H 4250 1625 50  0001 C CNN
 	1    4250 1625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5F8B2921
+P 4250 1900
+F 0 "FID1" H 4335 1946 50  0000 L CNN
+F 1 "Fiducial" H 4335 1855 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4250 1900 50  0001 C CNN
+F 3 "~" H 4250 1900 50  0001 C CNN
+	1    4250 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
