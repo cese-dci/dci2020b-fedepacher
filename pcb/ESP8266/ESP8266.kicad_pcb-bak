@@ -11,10 +11,11 @@
 
   (page A4)
   (title_block
-    (title ESP-01S)
+    (title "Replica mejorada modulo Wifi ESP-01S")
     (date 2020-09-25)
     (rev 1)
     (company "CESE11 - Federico Pacher")
+    (comment 1 "Revisor Hanes Sciarrone")
   )
 
   (layers

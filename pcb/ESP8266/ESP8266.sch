@@ -60,28 +60,6 @@ F 3 "~" H 4950 2900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
-U 1 1 5F5C4014
-P 4400 6150
-F 0 "C2" H 4515 6196 50  0000 L CNN
-F 1 "CAP NP" H 4515 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 6000 50  0001 C CNN
-F 3 "~" H 4400 6150 50  0001 C CNN
-	1    4400 6150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5F5C423B
-P 5300 6150
-F 0 "C1" H 5075 6200 50  0000 L CNN
-F 1 "CAP NP" H 4900 6100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 6000 50  0001 C CNN
-F 3 "~" H 5300 6150 50  0001 C CNN
-	1    5300 6150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C4
 U 1 1 5F5C4361
 P 9375 3500
@@ -123,54 +101,6 @@ F 1 "GND" H 4480 2952 50  0000 C CNN
 F 2 "" H 4475 3125 50  0001 C CNN
 F 3 "" H 4475 3125 50  0001 C CNN
 	1    4475 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5F5C9B1E
-P 4825 6250
-F 0 "#PWR0103" H 4825 6000 50  0001 C CNN
-F 1 "GND" H 4830 6077 50  0000 C CNN
-F 2 "" H 4825 6250 50  0001 C CNN
-F 3 "" H 4825 6250 50  0001 C CNN
-	1    4825 6250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5F5CA1C1
-P 5050 5475
-F 0 "#PWR0104" H 5050 5225 50  0001 C CNN
-F 1 "GND" H 5055 5302 50  0000 C CNN
-F 2 "" H 5050 5475 50  0001 C CNN
-F 3 "" H 5050 5475 50  0001 C CNN
-	1    5050 5475
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 5475 4825 5475
-Wire Wire Line
-	4825 5475 4825 5625
-$Comp
-L power:GND #PWR0105
-U 1 1 5F5CEEF8
-P 5300 6325
-F 0 "#PWR0105" H 5300 6075 50  0001 C CNN
-F 1 "GND" H 5305 6152 50  0000 C CNN
-F 2 "" H 5300 6325 50  0001 C CNN
-F 3 "" H 5300 6325 50  0001 C CNN
-	1    5300 6325
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5F5CF17D
-P 4400 6325
-F 0 "#PWR0106" H 4400 6075 50  0001 C CNN
-F 1 "GND" H 4405 6152 50  0000 C CNN
-F 2 "" H 4400 6325 50  0001 C CNN
-F 3 "" H 4400 6325 50  0001 C CNN
-	1    4400 6325
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -281,10 +211,6 @@ Wire Wire Line
 	9525 3500 9675 3500
 Wire Wire Line
 	6425 4450 6425 4400
-Wire Wire Line
-	4825 6250 4825 6225
-Wire Wire Line
-	5300 6325 5300 6300
 Wire Wire Line
 	3950 4450 3950 4425
 $Comp
@@ -444,10 +370,6 @@ Wire Wire Line
 Wire Wire Line
 	6425 3200 6050 3200
 Wire Wire Line
-	4400 6300 4400 6325
-Text Notes 3950 5400 0    50   ~ 0
-Oscilador Cristal
-Wire Wire Line
 	2825 2050 2550 2050
 Wire Wire Line
 	8225 2500 8975 2500
@@ -468,18 +390,6 @@ Wire Wire Line
 	4475 2700 4950 2700
 Wire Wire Line
 	4475 3050 4475 3125
-Wire Wire Line
-	5125 5925 5300 5925
-Wire Wire Line
-	5300 6000 5300 5925
-Connection ~ 5300 5925
-Wire Wire Line
-	5300 5925 5675 5925
-Wire Wire Line
-	4400 6000 4400 5925
-Connection ~ 4400 5925
-Wire Wire Line
-	4400 5925 4525 5925
 Wire Wire Line
 	8975 2900 8975 2975
 Wire Wire Line
@@ -513,14 +423,8 @@ Wire Wire Line
 	6300 2500 5275 2500
 Wire Wire Line
 	5275 2500 5275 2700
-Text Label 5675 5925 0    50   ~ 0
-EN_XTAL
 Text Label 6050 3100 0    50   ~ 0
 EN_XTAL
-Text Label 4025 5925 0    50   ~ 0
-SA_XTAL
-Wire Wire Line
-	4025 5925 4400 5925
 Text Label 6050 3200 0    50   ~ 0
 SA_XTAL
 Text Label 2550 2050 0    50   ~ 0
@@ -579,18 +483,6 @@ F 4 "https://www.digikey.com/es/products/detail/espressif-systems/ESP8266EX/8028
 F 5 "36610" H 7325 3500 50  0001 L BNN "Field5"
 F 6 "Espressif Systems" H 7325 3500 50  0001 L BNN "Field6"
 	1    7325 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Oscillator:XO53 XTAL1
-U 1 1 5F5BFCC2
-P 4825 5925
-F 0 "XTAL1" H 4500 5650 50  0000 L CNN
-F 1 "40MHz" H 4475 5550 50  0000 L CNN
-F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 5525 5575 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 4725 5925 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/abracon-llc/ABM8W-32-0000MHZ-4-D1X-T3/7172850" H 4825 5925 50  0001 C CNN "Field4"
-	1    4825 5925
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -668,14 +560,6 @@ Wire Wire Line
 	8225 4100 8300 4100
 Wire Wire Line
 	8225 3500 9075 3500
-Wire Notes Line
-	6025 6600 3950 6600
-Wire Notes Line
-	3950 6600 3950 5425
-Wire Notes Line
-	3950 5425 6025 5425
-Wire Notes Line
-	6025 5425 6025 6600
 Text Label 6475 2125 0    50   ~ 0
 VCC
 Wire Wire Line
@@ -744,7 +628,123 @@ Wire Notes Line
 Wire Notes Line
 	1750 1450 850  1450
 Text Notes 850  1425 0    50   ~ 0
-Agujero sugeción
+Agujero sujeción
 Text Notes 850  2050 0    50   ~ 0
 Fiduciales
+Wire Notes Line
+	6025 5425 6025 6600
+Wire Notes Line
+	3950 5425 6025 5425
+Wire Notes Line
+	3950 6600 3950 5425
+Wire Notes Line
+	6025 6600 3950 6600
+$Comp
+L Oscillator:XO53 XTAL1
+U 1 1 5F5BFCC2
+P 4825 5925
+F 0 "XTAL1" H 4500 5650 50  0000 L CNN
+F 1 "40MHz" H 4475 5550 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 5525 5575 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 4725 5925 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/abracon-llc/ABM8W-32-0000MHZ-4-D1X-T3/7172850" H 4825 5925 50  0001 C CNN "Field4"
+	1    4825 5925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 5925 4400 5925
+Text Label 4025 5925 0    50   ~ 0
+SA_XTAL
+Text Label 5675 5925 0    50   ~ 0
+EN_XTAL
+Wire Wire Line
+	4400 5925 4525 5925
+Connection ~ 4400 5925
+Wire Wire Line
+	4400 6000 4400 5925
+Wire Wire Line
+	5300 5925 5675 5925
+Connection ~ 5300 5925
+Wire Wire Line
+	5300 6000 5300 5925
+Wire Wire Line
+	5125 5925 5300 5925
+Text Notes 3950 5400 0    50   ~ 0
+Oscilador Cristal
+Wire Wire Line
+	4400 6300 4400 6325
+Wire Wire Line
+	5300 6325 5300 6300
+Wire Wire Line
+	4825 6250 4825 6225
+$Comp
+L power:GND #PWR0106
+U 1 1 5F5CF17D
+P 4400 6325
+F 0 "#PWR0106" H 4400 6075 50  0001 C CNN
+F 1 "GND" H 4405 6152 50  0000 C CNN
+F 2 "" H 4400 6325 50  0001 C CNN
+F 3 "" H 4400 6325 50  0001 C CNN
+	1    4400 6325
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F5CEEF8
+P 5300 6325
+F 0 "#PWR0105" H 5300 6075 50  0001 C CNN
+F 1 "GND" H 5305 6152 50  0000 C CNN
+F 2 "" H 5300 6325 50  0001 C CNN
+F 3 "" H 5300 6325 50  0001 C CNN
+	1    5300 6325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5475 4825 5625
+Wire Wire Line
+	5050 5475 4825 5475
+$Comp
+L power:GND #PWR0104
+U 1 1 5F5CA1C1
+P 5050 5475
+F 0 "#PWR0104" H 5050 5225 50  0001 C CNN
+F 1 "GND" H 5055 5302 50  0000 C CNN
+F 2 "" H 5050 5475 50  0001 C CNN
+F 3 "" H 5050 5475 50  0001 C CNN
+	1    5050 5475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F5C9B1E
+P 4825 6250
+F 0 "#PWR0103" H 4825 6000 50  0001 C CNN
+F 1 "GND" H 4830 6077 50  0000 C CNN
+F 2 "" H 4825 6250 50  0001 C CNN
+F 3 "" H 4825 6250 50  0001 C CNN
+	1    4825 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F5C423B
+P 5300 6150
+F 0 "C1" H 5075 6200 50  0000 L CNN
+F 1 "CAP NP" H 4900 6100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5338 6000 50  0001 C CNN
+F 3 "~" H 5300 6150 50  0001 C CNN
+	1    5300 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F5C4014
+P 4400 6150
+F 0 "C2" H 4515 6196 50  0000 L CNN
+F 1 "CAP NP" H 4515 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 6000 50  0001 C CNN
+F 3 "~" H 4400 6150 50  0001 C CNN
+	1    4400 6150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
