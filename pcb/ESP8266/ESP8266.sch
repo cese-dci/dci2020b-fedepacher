@@ -9,7 +9,7 @@ Date "2020-09-11"
 Rev "v1.0"
 Comp "CESE11 - Federico Pacher"
 Comment1 "Revisor Hanes Sciarrone"
-Comment2 ""
+Comment2 "Licencia Libre"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -34,6 +34,8 @@ F 0 "R1" H 9045 2796 50  0000 L CNN
 F 1 "12K+/-1%" H 9025 2700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8905 2750 50  0001 C CNN
 F 3 "~" H 8975 2750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-07390RL/731266" H 8975 2750 50  0001 C CNN "Digikey"
+F 5 "311-390ARTR-ND" H 8975 2750 50  0001 C CNN "Digikey Nr"
 	1    8975 2750
 	-1   0    0    -1  
 $EndComp
@@ -45,6 +47,8 @@ F 0 "R2" V 5425 4025 50  0000 C CNN
 F 1 "200" V 5500 4025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 4025 50  0001 C CNN
 F 3 "~" H 5650 4025 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-07390RL/731266" V 5650 4025 50  0001 C CNN "Digikey"
+F 5 "311-390ARTR-ND" V 5650 4025 50  0001 C CNN "Digikey Nr"
 	1    5650 4025
 	0    -1   1    0   
 $EndComp
@@ -56,6 +60,8 @@ F 0 "C3" H 5065 2946 50  0000 L CNN
 F 1 "0.1uF" H 5065 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 2750 50  0001 C CNN
 F 3 "~" H 4950 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/C0805C104K5RACTU/399-1170-1-ND/411445" H 4950 2900 50  0001 C CNN "Digikey"
+F 5 "399-1170-2-ND" H 4950 2900 50  0001 C CNN "Digikey Nr"
 	1    4950 2900
 	-1   0    0    -1  
 $EndComp
@@ -67,6 +73,8 @@ F 0 "C4" V 9525 3500 50  0000 C CNN
 F 1 "5.6pF" V 9625 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9413 3350 50  0001 C CNN
 F 3 "~" H 9375 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/C0805C104K5RACTU/399-1170-1-ND/411445" V 9375 3500 50  0001 C CNN "Digikey"
+F 5 "399-1170-2-ND" V 9375 3500 50  0001 C CNN "Digikey Nr"
 	1    9375 3500
 	0    -1   1    0   
 $EndComp
@@ -78,6 +86,8 @@ F 0 "C5" H 4590 2946 50  0000 L CNN
 F 1 "10uF" H 4590 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4513 2750 50  0001 C CNN
 F 3 "~" H 4475 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/C0805C104K5RACTU/399-1170-1-ND/411445" H 4475 2900 50  0001 C CNN "Digikey"
+F 5 "399-1170-2-ND" H 4475 2900 50  0001 C CNN "Digikey Nr"
 	1    4475 2900
 	-1   0    0    -1  
 $EndComp
@@ -135,6 +145,8 @@ F 0 "R3" V 5750 2750 50  0000 C CNN
 F 1 "0" V 5825 2775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2700 50  0001 C CNN
 F 3 "~" H 5650 2700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-07390RL/731266" V 5650 2700 50  0001 C CNN "Digikey"
+F 5 "311-390ARTR-ND" V 5650 2700 50  0001 C CNN "Digikey Nr"
 	1    5650 2700
 	0    -1   1    0   
 $EndComp
@@ -280,6 +292,8 @@ F 0 "R4" H 2680 3204 50  0000 R CNN
 F 1 "4K7" H 2680 3295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 3250 50  0001 C CNN
 F 3 "~" H 2750 3250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-07390RL/731266" H 2750 3250 50  0001 C CNN "Digikey"
+F 5 "311-390ARTR-ND" H 2750 3250 50  0001 C CNN "Digikey Nr"
 	1    2750 3250
 	1    0    0    1   
 $EndComp
@@ -291,6 +305,8 @@ F 0 "R5" H 3400 2850 50  0000 R CNN
 F 1 "2K2" H 3450 2950 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3155 2900 50  0001 C CNN
 F 3 "~" H 3225 2900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/yageo/RC0805JR-07390RL/731266" H 3225 2900 50  0001 C CNN "Digikey"
+F 5 "311-390ARTR-ND" H 3225 2900 50  0001 C CNN "Digikey Nr"
 	1    3225 2900
 	1    0    0    1   
 $EndComp
@@ -302,6 +318,8 @@ F 0 "D1" V 2789 2757 50  0000 R CNN
 F 1 "RED LED" V 2698 2757 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2750 2875 50  0001 C CNN
 F 3 "~" H 2750 2875 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/osram-opto-semiconductors-inc/LG-R971-KN-1/1227925" V 2750 2875 50  0001 C CNN "Digikey"
+F 5 "475-1410-2-ND" V 2750 2875 50  0001 C CNN "Digikey Nr"
 	1    2750 2875
 	0    1    -1   0   
 $EndComp
@@ -313,6 +331,8 @@ F 0 "D2" V 3300 3450 50  0000 R CNN
 F 1 "BLUE LED" V 3200 3700 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3225 3275 50  0001 C CNN
 F 3 "~" H 3225 3275 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/osram-opto-semiconductors-inc/LG-R971-KN-1/1227925" V 3225 3275 50  0001 C CNN "Digikey "
+F 5 "475-1410-2-ND" V 3225 3275 50  0001 C CNN "Digikey Nr"
 	1    3225 3275
 	0    1    -1   0   
 $EndComp
@@ -359,6 +379,7 @@ F 0 "J1" H 3175 2267 50  0000 C CNN
 F 1 "Conn_02x04" H 3175 2176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3125 1950 50  0001 C CNN
 F 3 "~" H 3125 1950 50  0001 C CNN
+F 4 "https://www.digikey.com/catalog/en/partgroup/0-100-2-54mm-pitch-connector-headers/24994" H 3125 1950 50  0001 C CNN "Digikey"
 	1    3125 1950
 	-1   0    0    1   
 $EndComp
@@ -490,6 +511,8 @@ F 0 "L1" H 9725 3600 50  0000 L CNN
 F 1 "NC" H 9725 3675 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 9675 3650 50  0001 C CNN
 F 3 "~" H 9675 3650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kemet/L0805C100MDWLT/3674101" H 9675 3650 50  0001 C CNN "Digikey"
+F 5 "399-9583-2-ND" H 9675 3650 50  0001 C CNN "Digikey Nr"
 	1    9675 3650
 	1    0    0    1   
 $EndComp
@@ -503,6 +526,8 @@ F 0 "L2" H 8950 3700 50  0000 L CNN
 F 1 "NC" H 8950 3600 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 9075 3650 50  0001 C CNN
 F 3 "~" H 9075 3650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kemet/L0805C100MDWLT/3674101" H 9075 3650 50  0001 C CNN "Digikey"
+F 5 "399-9583-2-ND" H 9075 3650 50  0001 C CNN "Digikey Nr"
 	1    9075 3650
 	1    0    0    1   
 $EndComp
@@ -598,12 +623,12 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5F8B4929
-P 1025 2725
-F 0 "FID3" H 1110 2771 50  0000 L CNN
-F 1 "Fiducial" H 1110 2680 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2725 50  0001 C CNN
-F 3 "~" H 1025 2725 50  0001 C CNN
-	1    1025 2725
+P 1025 2700
+F 0 "FID3" H 1110 2746 50  0000 L CNN
+F 1 "Fiducial" H 1110 2655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2700 50  0001 C CNN
+F 3 "~" H 1025 2700 50  0001 C CNN
+	1    1025 2700
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -708,6 +733,8 @@ F 0 "C1" H 5075 6200 50  0000 L CNN
 F 1 "CAP NP" H 4900 6100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5338 6000 50  0001 C CNN
 F 3 "~" H 5300 6150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/C0805C104K5RACTU/399-1170-1-ND/411445" H 5300 6150 50  0001 C CNN "Digikey"
+F 5 "399-1170-2-ND" H 5300 6150 50  0001 C CNN "Digikey Nr"
 	1    5300 6150
 	-1   0    0    -1  
 $EndComp
@@ -719,6 +746,8 @@ F 0 "C2" H 4515 6196 50  0000 L CNN
 F 1 "CAP NP" H 4515 6105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 6000 50  0001 C CNN
 F 3 "~" H 4400 6150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/C0805C104K5RACTU/399-1170-1-ND/411445" H 4400 6150 50  0001 C CNN "Digikey"
+F 5 "399-1170-2-ND" H 4400 6150 50  0001 C CNN "Digikey Nr"
 	1    4400 6150
 	-1   0    0    -1  
 $EndComp
