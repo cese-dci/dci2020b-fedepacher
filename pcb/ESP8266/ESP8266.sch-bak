@@ -9,7 +9,7 @@ Date "2020-09-11"
 Rev "v1.0"
 Comp "CESE11 - Federico Pacher"
 Comment1 "Revisor Hanes Sciarrone"
-Comment2 "Licencia Libre"
+Comment2 "Licencia CERN-OHL-P"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -623,12 +623,12 @@ $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5F8B4929
-P 1025 2725
-F 0 "FID3" H 1110 2771 50  0000 L CNN
-F 1 "Fiducial" H 1110 2680 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2725 50  0001 C CNN
-F 3 "~" H 1025 2725 50  0001 C CNN
-	1    1025 2725
+P 1025 2700
+F 0 "FID3" H 1110 2746 50  0000 L CNN
+F 1 "Fiducial" H 1110 2655 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1025 2700 50  0001 C CNN
+F 3 "~" H 1025 2700 50  0001 C CNN
+	1    1025 2700
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -654,10 +654,10 @@ Fiduciales
 Wire Notes Line
 	6025 6600 3950 6600
 $Comp
-L Oscillator:XO53 XTAL1
+L Oscillator:XO53 Y1
 U 1 1 5F5BFCC2
 P 4825 5925
-F 0 "XTAL1" H 4500 5650 50  0000 L CNN
+F 0 "Y1" H 4550 5650 50  0000 L CNN
 F 1 "40MHz" H 4475 5550 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm" H 5525 5575 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 4725 5925 50  0001 C CNN
@@ -782,4 +782,36 @@ Wire Notes Line
 	6025 5325 6025 6600
 Wire Notes Line
 	3950 5325 3950 6600
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5FA45A8D
+P 1175 3550
+F 0 "LOGO1" H 1175 3825 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1175 3325 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_5mm_Copper" H 1175 3550 50  0001 C CNN
+F 3 "~" H 1175 3550 50  0001 C CNN
+	1    1175 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5FA46376
+P 1175 4150
+F 0 "LOGO2" H 1175 4425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1175 3925 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 1175 4150 50  0001 C CNN
+F 3 "~" H 1175 4150 50  0001 C CNN
+	1    1175 4150
+	1    0    0    -1  
+$EndComp
+Text Notes 850  3175 0    50   ~ 0
+Logos
+Wire Notes Line
+	850  3200 1525 3200
+Wire Notes Line
+	1525 3200 1525 4400
+Wire Notes Line
+	1525 4400 850  4400
+Wire Notes Line
+	850  4400 850  3200
 $EndSCHEMATC
